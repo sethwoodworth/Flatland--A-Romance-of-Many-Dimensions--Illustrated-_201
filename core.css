@@ -42,7 +42,7 @@ pre {
   opacity: 0.9;
   background-position:center center;
 
-  border: 1px black solid;
+  /*border: 1px black solid;*/
   font-size: 3pt;
 
   overflow: hidden;
@@ -61,6 +61,7 @@ pre {
   -ms-transform     : translateZ(200px);
   transform         : translateZ(200px);
   text-align: center;
+  color: #4F8AA1;
 }
 
 #cube div:nth-child(2) {
@@ -69,6 +70,7 @@ pre {
   -o-transform      : rotateY(90deg) translateZ(200px);
   -ms-transform     : rotateY(90deg) translateZ(200px);
   transform         : rotateY(90deg) translateZ(200px);
+  color: #A14F5D;
 }
 
 #cube div:nth-child(3) {
@@ -105,4 +107,5 @@ pre {
   -ms-transform     : rotateX(90deg) translateZ(200px);
   transform         : rotateX(90deg) translateZ(200px);
   text-align:center;  
+  color: #A18B4F;
 }
